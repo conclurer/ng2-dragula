@@ -1,8 +1,8 @@
 /// <reference path="../typings/main.d.ts"/>
 
 import {enableProdMode} from "@angular/core";
-import {ELEMENT_PROBE_PROVIDERS} from '@angular/platform-browser';
 import {bootstrap} from '@angular/platform-browser-dynamic';
+import {ELEMENT_PROBE_PROVIDERS} from '@angular/platform-browser';
 
 const ENV_PROVIDERS = [];
 // depending on the env mode, enable prod mode or add debugging modules

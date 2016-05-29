@@ -1,17 +1,23 @@
 {
   "compilerOptions": {
-    "target": "ES5",
-    "module": "system",
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "declaration": true,
+    "removeComments": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "sourceMap": true,
-    "moduleResolution": "node"
+    "noImplicitAny": true,
+    "listFiles": false,
+    "noLib": false
   },
+  "exclude": [
+    "node_modules"
+  ],
   "files": [
     "typings/browser.d.ts",
-    "ng2-dragula.ts",
-    "src/bootstrap.ts",
-    "src/vendor.ts"
+    "ng2-dragula.ts"
   ],
   "compileOnSave": false,
   "buildOnSave": false
